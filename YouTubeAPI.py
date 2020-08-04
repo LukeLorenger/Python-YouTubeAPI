@@ -1,7 +1,7 @@
 # Build the service Object
 from googleapiclient.discovery import build
 # Placement of API key
-api_key = 'AIzaSyC7DNkq-Pj8794AzQEax1jB_RNzHVLRcM8'
+api_key = 'your API key here'
 # Connect to youtube service
 youtube = build('youtube', 'v3', developerKey=api_key)
 # Returns a resource for the API route using youtube service
