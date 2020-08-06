@@ -6,7 +6,7 @@
 # Build the service Object
 from googleapiclient.discovery import build
 # Placement of API key
-api_key = 'Your key goes here.'
+api_key = 'Your key here.'
 # Connect to youtube service
 youtube = build('youtube', 'v3', developerKey=api_key)
 
@@ -121,7 +121,7 @@ while True:
 # sort list in place before we loop over videos, reverse to make highest viewed videos first
 videos.sort(key=lambda vid: vid['views'], reverse=True)
 
-for video in videos:
+for video in videos: #videos[:10] to get the top 10 videos
 	print(video['url'], video['views'])
 
 # convert total to integers

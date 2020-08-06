@@ -6,5 +6,25 @@ Part 2:
 	Calculate the duration of a Playlist, accessing playlist information and ids, using ids to 
 	pull data for calculation. This is useful for if youd like the know how long a playlist of tutorials
 	might take you. 
+Part 3:
+	Using python and Youtube API to find the most popular video in the playlist.
+	Why: If you go to channels video channel, you can sort all videos from channel by popularity.
+	But, a video from 8 years ago is not what you want to listen to as a tech person. 
+	You want to find the most popular video in a current playlist
 
+importing libraries
+setting up api key using youtube service
+regular expressions to calculate total time in video
+looping over all videos in playlist
+execute that request to api
+scroll through and grab video ids
+make request to videos resouce using video Ids
+loop through responses for all videos in playlist
+grab total duration, parce it out, add it up, to get total time for playlist. 
+Change script to grab most popular videos
+Commented out all lines needed to calculate playlist duration
+What is left is code that loops through videos in each playlist
+loop over playlist, accessing each video, grabbing view count, creating link for each video
+in the playlist.
+Add all to list, sort the list based on number of views. 
 
