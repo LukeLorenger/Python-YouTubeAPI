@@ -1,0 +1,10 @@
+Notes On YouTube API Project:
+
+Part 1:
+	Build service object, gathers statistics from YouTube pages via username refference and using YouTube API
+Part 2:
+	Calculate the duration of a Playlist, accessing playlist information and ids, using ids to 
+	pull data for calculation. This is useful for if youd like the know how long a playlist of tutorials
+	might take you. 
+
+
