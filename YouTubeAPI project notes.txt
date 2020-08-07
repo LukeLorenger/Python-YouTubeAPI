@@ -1,30 +1,29 @@
+Connect to YouTube's API using Python 3 script in Sublime Text.
+
+Notes:
 Notes On YouTube API Project:
 
 Part 1:
-	Build service object, gathers statistics from YouTube pages via username refference and using YouTube API
+Build service object, gathers statistics from YouTube pages via username reference and using YouTube API
 Part 2:
-	Calculate the duration of a Playlist, accessing playlist information and ids, using ids to 
-	pull data for calculation. This is useful for if youd like the know how long a playlist of tutorials
-	might take you. 
+Calculate the duration of a Playlist, accessing playlist information and ids, using ids to pull data for calculation. This is useful if you'd like the know-how long a playlist of tutorials might take you. 
 Part 3:
-	Using python and Youtube API to find the most popular video in the playlist.
-	Why: If you go to channels video channel, you can sort all videos from channel by popularity.
-	But, a video from 8 years ago is not what you want to listen to as a tech person. 
-	You want to find the most popular video in a current playlist
+Using python and Youtube API to find the most popular video in the playlist.
+Why: If you go to the channels video channel, you can sort all videos from the channel by popularity.
+But, a video from 8 years ago is not what you want to listen to as a tech person. 
+You want to find the most popular video in a current playlist.
 
-importing libraries
-setting up api key using youtube service
-regular expressions to calculate total time in video
-looping over all videos in playlist
-execute that request to api
-scroll through and grab video ids
-make request to videos resouce using video Ids
-loop through responses for all videos in playlist
-grab total duration, parce it out, add it up, to get total time for playlist. 
-Change script to grab most popular videos
-Commented out all lines needed to calculate playlist duration
-What is left is code that loops through videos in each playlist
-loop over playlist, accessing each video, grabbing view count, creating link for each video
-in the playlist.
-Add all to list, sort the list based on number of views. 
-
+1. Importing Libraries.
+2. Setting up API key using youtube service.
+3. Regular expressions to calculate total time in the video.
+4. Looping over all videos in the playlist.
+5. Execute that request to API.
+6. Scroll through and grab video ids.
+7. Make requests to videos resource using video Ids.
+8. Loop through responses for all videos in the playlist.
+9. Grab total duration, parce it out, add it up, to get the total time for the playlist. 
+10. Change the script to grab the most popular videos.
+11. Commented out all lines needed to calculate playlist duration.
+12. What is left is code that loops through videos in each playlist.
+13. Loop over the playlist, accessing each video, grabbing view count, creating a link for each video in the playlist.
+14. Add all to list, sort the list based on the number of views. 
